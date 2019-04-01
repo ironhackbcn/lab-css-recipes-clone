@@ -57,17 +57,18 @@ main{
   max-width: 480px;
 }
 
-#ingredients{
+#ingredients, #directions{
   position: relative;
   width: 80%;
   left: 50%;
   transform:translateX(-50%);
   padding-bottom: 5%;
 }
-#ingredients header h2{
-  font-size: 1.2em;
+#ingredients header h2, #directions header h2{
+  font-size: 1em;
   padding-bottom: 2.5%;
   font-weight: 400;
+  color: black;
 }
 #ingredients ul li{
   list-style: none;
@@ -80,4 +81,8 @@ main{
   margin: 3% 0px;
   width: 80%;
   max-width: 480px;
+}
+#directions ol li{
+  list-style: none;
+  font-size: 0.8em;
 }
