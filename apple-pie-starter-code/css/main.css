@@ -12,7 +12,7 @@ h1, h2 {
   font-weight: normal;
 }
 
-section:first-child {
+section:first-child, #masthead {
   background-image: url(../images/apple-pie.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -23,13 +23,13 @@ section:first-child {
   text-align: center;
 }
 
-section:not(:first-child) {
+section:not(:first-child), #ingredients, #directions {
   border-bottom: 1px solid gray;
   margin: 0 auto;
   width: 80%;
 }
 
-section:last-child {
+section:last-child, #directions {
   border-bottom: none;
   margin-bottom: 40px;
 }
@@ -44,11 +44,11 @@ ul, ol {
   padding: 0;
 }
 
-ul li {
+ul li, #ingredients li {
   list-style-type: none;
 }
 
-ol li {
+ol li, #directions li {
   list-style-position: inside;
   list-style-type: decimal;
 }
