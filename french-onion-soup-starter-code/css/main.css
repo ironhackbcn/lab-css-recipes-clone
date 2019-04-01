@@ -1,9 +1,105 @@
 /*Some necessary adjustments*/
+
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #626262;
+  font-size: 12pt;
+  background-color: #c0c0c0;
+  letter-spacing: normal;
+  font-weight: 100;
+  line-height: 15pt;
+}
+
+.text {
+  padding: 20px 50px 20px 50px;
+}
+
+h1 {
+  padding-top: 130px;
+  text-align: center;
+  font-size: 40pt;
+  color: #ffffff;
+  font-weight: 400;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 16pt;
+  margin-top: 0.80em;
+  margin-bottom: 0.80em;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  color: #989898;
+  border: 1px solid #000000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -10px;
+}
+
+.page {
+  margin: 0 auto;
+  width: 750px;
+  background-color: #ffffff;
+}
+
+.directions {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+#recipe-img {
+  background-image: url("../images/soup.jpg");
+  height: 370px;
+  width: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+
+#recipe-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  width: 50%;
 }
