@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,400,900');
 
 *{
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 24px;
+  color:#4d4d4d;
 }
 
 #hero-header{
@@ -17,10 +19,65 @@
 #hero-header header{
   position:relative;
   top: 50%;
-  transform:translateY(-50%)
+  transform:translateY(-50%);
 }
 #hero-header header h1{
   font-size: 7vw;
   text-align:center;
   color: white;
+}
+main{
+  position: relative;
+  width: 100%;
+  max-width: 1310px;
+  left: 50%;
+  transform:translateX(-50%);
+}
+#intro{
+  position: relative;
+  width: 100%;
+}
+#intro article{
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform:translateX(-50%);
+  padding: 5% 0px;
+}
+#intro article p{
+  text-align: justify;
+  font-weight: 200;
+}
+#intro article img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 3% 0px;
+  width: 80%;
+  max-width: 480px;
+}
+
+#ingredients{
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform:translateX(-50%);
+  padding-bottom: 5%;
+}
+#ingredients header h2{
+  font-size: 1.2em;
+  padding-bottom: 2.5%;
+  font-weight: 400;
+}
+#ingredients ul li{
+  list-style: none;
+  font-size: 0.8em;
+}
+#ingredients article img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 3% 0px;
+  width: 80%;
+  max-width: 480px;
 }
