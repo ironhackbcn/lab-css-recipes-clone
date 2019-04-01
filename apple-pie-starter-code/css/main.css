@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 }
 
 header {
@@ -25,5 +25,23 @@ h1 {
 }
 
 .container {
-  padding: 0 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info-img {
+  display: block;
+  margin: 0 auto;
+}
+
+#history .info-img {
+  height: 80px;
+}
+
+#ingredients img.info-img {
+  height: 100px;
+}
+
+section {
+  padding-top: 25px;
 }
