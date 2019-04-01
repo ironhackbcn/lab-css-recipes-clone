@@ -49,4 +49,5 @@ ul.dash > li:before {
 ol {
     margin-bottom: 100px;
     list-style-type: none; 
+    padding-left: 0;
 }
