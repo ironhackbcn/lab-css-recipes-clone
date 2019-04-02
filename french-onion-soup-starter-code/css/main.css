@@ -40,6 +40,7 @@ p {
 
 .cooking-pic {
 margin: 0 auto;
+text-align: center;
 }
 
 .cooking-pic img{
@@ -61,7 +62,7 @@ margin: 0 auto;
 .recipe-text {
   color: black;
   text-align: center;
-  padding-top: 80px; /*hard way here */
+  padding-top: 130px; /*hard way here */
 }
 
 .top-padding {
