@@ -11,7 +11,7 @@ body {
   line-height: 1.7rem;
 }
 
-.container {
+main {
   width: 80%;
   margin: 0 auto;
 }
@@ -48,6 +48,10 @@ h1 {
   height: 100px;
 }
 
+#history, #ingredients {
+  border-bottom: 1px solid rgb(128, 125, 125);
+  padding-bottom: 20px;
+}
 /************* GENERAL SECTION STYLING *************/
 
 section {
