@@ -1,9 +1,78 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+@import url(reset.css);
+
+body {
+  font-weight: 200;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
+
+h2 {
+  font-weight: 500;
+  line-height: 2em;
+}
+
+li {
+  font-weight: 300;
+  line-height: 2em;
+}
+
+p {
+  line-height: 1.5em;
+  line-height: 2em;
+}
+
+.container {
+  width: 800 px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.cooking-pic {
+margin: 0 auto;
+text-align: center;
+}
+
+.cooking-pic img{
+  width: 200px;
+}
+
+
+.recipe-cover {
+  background-image: url("/Users/miguelangelalvarez/practice-css-ironhack/lab-css-recipes-clone/french-onion-soup-starter-code/images/soup.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  top: 80px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.recipe-text {
+  color: black;
+  text-align: center;
+  padding-top: 130px; /*hard way here */
+}
+
+.top-padding {
+  padding-top: 80px;
+}
+
+.ingredients {
+  list-style-type: none;
+}
+
+.cooking_icons {
+  width: 20%;
 }
