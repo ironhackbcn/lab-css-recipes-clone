@@ -5,5 +5,61 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  color: rgb(73, 72, 72);
+}
+
+/************* GENERAL PAGE STYLES *************/
+
+body {
+  margin: 0;
+  line-height: 1.7rem;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/************* HEADER *************/
+
+header {
+  background: center / cover no-repeat url("/images/soup.jpg");
+  height: 500px;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 500px;
+  vertical-align: center;
+  margin: 0;
+}
+
+/************* IMAGES *************/
+
+.info-img {
+  display: block;
+  margin: 0 auto;
+}
+
+#history .info-img {
+  height: 80px;
+}
+
+#ingredients img.info-img {
+  height: 100px;
+}
+
+#history, #ingredients {
+  border-bottom: 1px solid rgb(143, 139, 139);
+  padding-bottom: 20px;
+}
+
+/************* GENERAL SECTION STYLING *************/
+
+section {
+  padding-top: 25px;
 }
