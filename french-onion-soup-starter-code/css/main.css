@@ -1,9 +1,68 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.container {
+  margin-top: 75px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+header {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header > h1 {
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  padding: 350px 200px;
+}
+
+hr {
+  border: 1px solid grey;
+}
+p {
+  font-size: 20px;
+}
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+ul {
+  list-style: none;
+}
+.img-recipe {
+  margin-top: 30px;
+  float: inherit;
+  margin-bottom: 20px;
+  width: 400px;
+  margin-left: 20%;
+  margin-right: 25%;
+}
+.img-cooking {
+  margin-top: 30px;
+  float: inherit;
+  margin-bottom: 20px;
+  width: 400px;
+  margin-left: 20%;
+  margin-right: 25%;
+}
+footer {
+  margin: 20px;
 }
