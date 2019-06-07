@@ -1,9 +1,50 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+* {
+  margin: 0px;
+  padding: 0px;
+  @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  color: grey;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+ul li {
+  list-style: none;
+}
+.align-c {
+  text-align: center;
+  color: white;
+  padding-top: 240px;
+  font-size: 80px;
+}
+.section {
+  margin-top: 100px;
+}
+.p-m {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.mr-hr {
+  margin-top: 40px;
+}
+.img-mg {
+  margin-top: 40px;
+}
+.s-mg {
+  margin-left: 320px;
+}
+.p-mg {
+  margin-bottom: 40px;
+}
+.img-mg {
+  margin-bottom: 40px;
+}
+.img-center {
+  margin: 0 auto;
+  display: block;
+}
+.p-mg-t {
+  margin-top: 10px;
+}
+.p-mg-b {
+  margin-bottom: 40px;
 }
