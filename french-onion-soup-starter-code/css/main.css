@@ -1,9 +1,59 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
+  box-sizing: border-box;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  padding: 250px;
+}
+
+header {
+  height: 700px;
+  background-image: url(http://dokukova.com/wp-content/uploads/2019/06/soup.jpg);
+  background-size: cover;
+  background-position: 0% 75%;
+  color: white;
+}
+
+section {
+  padding: 70px 200px 100px 200px;
+  font-size: 20px;
+}
+
+div {
+  padding-top: 50px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.intro {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ingredients li:before {
+  content: "- ";
+}
+
+#one:before {
+  content: "1) ";
+}
+#two:before {
+  content: "2) ";
+}
+#three:before {
+  content: "3) ";
+}
+#four:before {
+  content: "4) ";
 }
