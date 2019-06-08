@@ -1,0 +1,130 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+/*Reset Styles*/
+* {
+  padding: 0;
+  margin: 0;
+}
+/*Global styles*/
+body {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+figure {
+  margin: 1em auto 0;
+}
+
+img {
+  width: 100%;
+}
+h1 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 30%;
+  font-weight: normal;
+}
+
+h2 {
+  color: black;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#container {
+  width: 100%;
+}
+
+.content {
+  padding: 2em;
+}
+
+p,
+ul {
+  font-size: 1em;
+  color: #000000;
+  font-weight: 100;
+  line-height: 1.6em;
+}
+
+ul {
+  margin: 0em;
+}
+
+ul > li,
+ol > li {
+  margin-bottom: 0.8em;
+  line-height: 1.6em;
+}
+
+.divider {
+  background-color: black;
+  height: 1px;
+  margin: 1.5em auto;
+  width: 80%;
+}
+
+/*Header*/
+.header {
+  background: url("../images/apple-pie.jpg") top center no-repeat #ffffff;
+  background-size: cover;
+  min-height: 300px;
+  margin-bottom: 2em;
+}
+
+/*List*/
+ul.dashed {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+ul.dashed > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1.1em;
+}
+
+ol {
+  margin-left: 0em;
+  padding-left: 1.2em;
+}
+
+@media (min-width: 600px) {
+  /*Global Styles*/
+  #container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid black;
+    margin: 2em auto;
+  }
+
+  h1 {
+    font-size: 5em;
+    padding-top: 25%;
+    font-weight: normal;
+  }
+
+  figure {
+    width: 50%;
+  }
+
+  /*Header*/
+  .header {
+    min-height: 600px;
+  }
+}
