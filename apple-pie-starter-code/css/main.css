@@ -1,0 +1,61 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+html {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}  
+
+#apple {
+    background: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding-top: 0;
+
+}
+
+#apple h1 {
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 3.5em;
+}
+
+#intro, #ingredients, #directions {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+}
+
+#ingredients h1 {
+    padding-bottom: 15px;
+}
+
+#intro, #ingredients {
+    border-bottom: 2px gray solid;
+    padding-bottom: 50px;
+}
+
+#ingredients ul {
+    margin: 0;
+    list-style-type: none;
+  }
+ 
+#ingredients ul > li:before {
+    content: "–"; /* add dash */
+    position: absolute;
+    margin-left: -1.1em; 
+  }
+
+
+img{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    width: 65%;
+    height: auto;
+  }
