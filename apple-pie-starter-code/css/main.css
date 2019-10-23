@@ -1,0 +1,93 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+.apple-photo {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.onion-photo {
+    background-image: url('../../french-onion-soup-starter-code/images/soup.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    height: 800px;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 325px;
+}
+
+section {
+    margin: 50px 150px;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+}
+
+#about, #ingredients {
+    border-bottom: 2.5px solid grey;
+}
+
+#about {
+    text-align: left;
+    padding: 20px;
+}
+
+#about img, #ingredients img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#ingredients h2 {
+    font-weight: 300;
+}
+
+
+#ingredients ul {
+    list-style-type: none;
+}
+
+#ingredients ul > li {
+    text-indent: -5px;
+}
+
+#ingredients ul > li:before {
+    content: '- ';
+    text-indent: -5px;
+}
+
+#directions {
+    margin-bottom: 100px;
+}
+#directions ol {
+    counter-reset: list;
+}
+
+#directions ol > li {
+    list-style-type: none;
+}
+
+#directions ol > li:before {
+    counter-increment: list;
+    content: counter(list, lower-number) ") ";
+}
